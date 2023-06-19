@@ -1,0 +1,91 @@
+.firstbox {
+    height: 100vh;
+    background-color: rgb(219, 226, 226);
+}
+.firstcontbox {
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+.firstcol1 {
+    margin-top: 100px;
+    padding-left: 50px;
+    margin-bottom: 110px;
+}
+.firstcol2{
+    margin-top: 100px;
+}
+
+.title{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+}
+.slider{
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    animation: firstpage 6s linear infinite;
+    background-color: black;
+    color: yellow;
+}
+@keyframes firstpage {
+    0%{ margin-top: 10px;}
+    30%{ margin-top: 10px;}
+    35%{margin-top: 100px;}
+    65%{margin-top: 100px;}
+    70%{margin-top: 190px;}
+    100%{margin-top: 190px;}
+}
+.button1{
+    margin-top: 50px;
+}
+.button1 button{
+    width: 120px;
+    margin-left: 20px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: linear-gradient(to left,transparent 50%,black 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+}
+.button1 button:hover{
+    background-position: left;
+    color: yellow;
+    font-weight:bold ;
+}
+
+.button2{
+    margin-top: 80px;
+}
+.button2 button{
+    width: 125px;
+    margin-left: 160px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: linear-gradient(to left,transparent 50%,black 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+}
+.button2 button:hover{
+    background-position: left;
+    color: yellow;
+    font-weight:bold ;
+}

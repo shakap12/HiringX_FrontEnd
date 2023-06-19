@@ -1,0 +1,85 @@
+.box {
+    height: 100vh;
+    background-color: rgb(219, 226, 226);
+}
+.contbox {
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 30px;
+    padding-top:120px ;
+}
+.adminbox{
+    text-align: center;
+    width: 80vh;
+    height: 30vh;
+    margin: auto;
+}
+.introinput{
+    display: inline-block;
+    margin-top: 20px;
+    height: 30px;
+    width: 40vh;
+    padding-left: 10px;
+    background-color: white;
+    outline: none;
+    border:1px solid rgb(219, 226, 226);
+    border-radius: 5px;
+}
+.introinput::placeholder{
+    text-align: center;
+}
+.introbtn{
+    margin-top: 25px;
+    width: 100px;
+    outline: none;
+}
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-top: 7px;
+
+}
+.animatetext{
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    animation: shashwat 4s linear infinite;
+    background-color: black;
+    color: yellow;
+    padding-top: 7px;
+}
+@keyframes shashwat {
+    0%{ margin-top: 30px;}
+    45%{ margin-top: 30px;}
+    55%{margin-top: -43px;}
+    100%{margin-top: -43px;}
+}
+.introbtn{
+    width: 120px;
+    margin-top: 30px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: linear-gradient(to left,transparent 50%,black 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+}
+.introbtn:hover{
+    background-position: left;
+    color: yellow;
+    font-weight:bold ;
+}

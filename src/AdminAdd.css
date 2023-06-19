@@ -1,0 +1,91 @@
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.navbar h3{
+    margin-top: 10px;
+}
+.navbar button{
+    display: inline-block;   
+}
+.btn3{
+    width: 110;
+    height: 40px;
+    margin-right: 10px;
+    font: 600;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: linear-gradient(to left,transparent 50%,black 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+}
+.btn2{
+    width: 110;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: linear-gradient(to left,transparent 50%,black 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+    margin-right: 10px;
+}
+.btn3:hover{
+    background-position: left;
+    color: yellow;
+    font-weight:bold ;
+}
+.btn2:hover{
+    background-position: left;
+    color: yellow;
+    font-weight:bold ;
+}
+.adminjob{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    overflow: hidden;
+}
+.adminjobslider{
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    animation: slider 3s linear infinite;
+    background-color: black;
+    color: yellow;
+}
+@keyframes slider {
+    0%{ margin-top: 25px;}
+    45%{ margin-top: 25px;}
+    55%{margin-top: -40px;}
+    100%{margin-top: -40px;}
+}
+.skillcol{
+    width: 195px;
+    height: 45px;
+    margin-left: 40px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(219, 226, 226);
+    outline: none;
+}
+.skillcol:focus{
+    border: 4px solid rgb(182, 213, 249);
+  }

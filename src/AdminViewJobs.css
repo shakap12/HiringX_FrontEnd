@@ -1,0 +1,58 @@
+.cardbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.cardbox:hover{
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2);
+}
+.containerbox {
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.defaultmsg{
+    text-align: center;
+    padding-top: 7px;
+    height: 80px;
+    font-weight:bold ;
+}
+.updatebtn{
+    outline: none;
+    border: 1px solid rgb(219, 226, 226);
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    font-size:13px;
+    font-weight: bold;
+}
+.updatebtn:hover{
+    background-color: black;
+    color: yellow;
+}
+.delbtn{
+    outline: none;
+    border: 1px solid rgb(219, 226, 226);
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    font-size:13px;
+    font-weight: bold;
+}
+.delbtn:hover{
+    background-color: black;
+    color: yellow;
+}
+.loc{
+    margin-top: 0;
+    font-size: 15px;
+}
+.reqskill{
+    margin-bottom: 1px;
+}

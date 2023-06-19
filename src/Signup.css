@@ -1,0 +1,14 @@
+.progess-container {
+    width: 300px;
+    height: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 13px;
+    border: 1px solid rgb(219,226,226);
+    outline: none;
+}
+
+.progress-bar {
+    max-width: 100%;
+}
